@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        padding: 50px;
+    }
+    button{
+        padding: 30px;
+        border-radius: 20px;
+    }
+</style>
+<body style="background-color: black;">
+ <div  ><button onclick="Red()" style="background-color: red;"></button></div> 
+  <div ><button  onclick="Green()" style="background-color: green;"></button></div>
+  <div ><button onclick="Black()" style="background-color: aqua;"></button></div>
+  <div  ><button onclick="Orange()" style="background-color: orange;"></button></div>
+</body>
+<script>
+    function Red(){
+        let cc =document.querySelector('body').setAttribute("style","background:red")
+    }
+    function Green(){
+        let cc =document.querySelector('body').setAttribute("style","background:green")
+    }
+    function Black(){
+        let cc =document.querySelector('body').setAttribute("style","background:aqua")
+    }
+    function Orange(){
+        let cc =document.querySelector('body').setAttribute("style","background:orange")
+    }
+</script>
+
+
+</html>
